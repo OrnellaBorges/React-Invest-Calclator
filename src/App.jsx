@@ -44,7 +44,11 @@ function App() {
     return (
         <>
             <h1>React Investment Calculator</h1>
-            <UserInput data2={inputValues} onChange={handleChange} />
+            <UserInput
+                prop={jdjd}
+                data2={inputValues}
+                onChange={handleChange}
+            />
             {/* Dans la prop input on lui passe inputvalue qui est la valeur mise a jour par le client */}
             <Result input={inputValues} />
         </>
